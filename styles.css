@@ -21,7 +21,16 @@ header{
 .navbar{
     background-color: #906b83;   
 }
-.ul, li, a {
+.ul,  a {
+    list-style: none;
+    color: rgb(70, 56, 57)!important;
+    font-size:22px ;
+    
+    border-radius: 20px;
+    text-decoration: none !important;    
+}
+
+.li-element{
     list-style: none;
     color: rgb(70, 56, 57)!important;
     font-size:22px ;
