@@ -21,6 +21,9 @@ header{
 .navbar{
     background-color: #906b83;   
 }
+.nav-log{
+   
+}
 .ul,  a {
     list-style: none;
     color: rgb(70, 56, 57)!important;
@@ -34,18 +37,18 @@ header{
     list-style: none;
     color: rgb(70, 56, 57)!important;
     font-size:22px ;
-    
-    border-radius: 20px;
+    border-radius: 28px;
     text-decoration: none !important;    
+}
+.li-element:hover{
+    color: rgb(98, 88, 88) !important;
+    background-color: #a28e98;
+    text-decoration: none !important; 
 }
 .nav-item{
     padding: 10px;
 }
-a:hover{ 
-    color: rgb(98, 88, 88) !important;
-    background-color: #a28e98;
-    text-decoration: none !important;        
-}
+
 .log{
     align-items: center; 
     font-family: "Noto Serif", serif;
@@ -80,6 +83,13 @@ margin: 0;
    color: rgb(54, 44, 54);
    font-size: 22px; 
 }
+.name-titel:hover{ 
+    color: rgb(98, 88, 88) !important;
+    background-color: #a28e98;
+    text-decoration: none !important; 
+    border-radius: 20px;
+}
+
 .name-titel-2{
     border-bottom-style: solid;
   border-bottom-color: rgb(203, 106, 50);
@@ -115,9 +125,7 @@ margin: 0;
  
 }
 
-.work-2{
- margin-top: 40px;
-}
+
 .button:hover{
 
  background-color: rgb(175, 162, 166);
