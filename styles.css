@@ -161,6 +161,16 @@ margin: 0;
 
  }
  
+ .ordered-list-container ol{ 
+
+columns: 2;
+ -webkit-columns: 2; 
+ -moz-columns: 2;
+ width: 90vw;
+ column-gap: 70px;
+  -webkit-column-gap: 70px;
+  -moz-column-gap: 70px;
+ }
 footer{
 background-color: #a28e98;
 }
